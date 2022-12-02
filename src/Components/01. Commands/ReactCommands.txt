@@ -1,0 +1,41 @@
+Before getting started, make sure you install node.js and npm in your machine and check their versions:
+
+node -v
+JavaScript
+npm –version
+JavaScript
+If npm and node.js is installed on computer, install create-react-app globally with the command below:
+
+npm install –g create-react-app
+JavaScript
+Creation of project − to create a project once above commands are executed, run the below command:
+
+npx create-react-app hello-world-example
+JavaScript
+npx comes with npm version 5.2+ . The npm version can be checked on terminal using:
+
+npm –version
+JavaScript
+If the npm version is 5.2+, then the react.js project can be directly created with the command:
+
+npx create-react-app hello-world-example
+JavaScript
+If npm version is 6+, then execute this command below:
+
+npm init react-app hello-world
+JavaScript
+With yarn, we have command:
+
+yarn create react-app hello-world-example
+JavaScript
+Once above commands are inserted, change the directory to hello-world-example.
+
+With create-react-app, webpack or babel is required for using advanced JavaScript features, which are preconfigured. We can only concentrate on writing code.
+
+cd hello-world-example
+JavaScript
+To execute the application, run the below command on terminal:
+
+npm start
+JavaScript
+npm start runs a live development server, and the code changes will automatically refresh the browser and reflect the changes.
